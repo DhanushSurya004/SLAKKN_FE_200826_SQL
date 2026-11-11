@@ -34,3 +34,4 @@ expiry_date date,
 is_available boolean default true,
 created_at timestamp default current_timestamp
 );
+
