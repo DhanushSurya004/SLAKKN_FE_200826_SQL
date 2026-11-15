@@ -68,4 +68,5 @@ select department, count(*) as total_employees from employees group by departmen
 
 select category, sum(stock) as total_stock, avg(price) as average_price from products group by category;
 
-select department, avg(salary) as average_salary from employees where salary > 25000 group by department having avg(salary) > 40000;
+select department, avg(salary) as avg_salary from employees where salary > 25000 group by department having avg(salary) > 40000;
+
